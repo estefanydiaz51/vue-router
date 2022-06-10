@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div>
+        <TitleComponent title="Página de About"></TitleComponent>
+    </div>
 </template>
+
+<script>
+import TitleComponent from '../components/TitleComponent'
+export default {
+  components: { TitleComponent },
+
+
+}
+</script>
+
+<style>
+
+</style>
